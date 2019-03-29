@@ -166,3 +166,12 @@ Shift+Ctrl+F10  快速执行Application程序
 
 Ctrl+Alt+t   快速导入相关结构体，如try catch，for，if else
 
+git使用步骤
+
+https://blog.csdn.net/qq_37599827/article/details/82711227
+
+将IDEA上的项目远程到git上。
+
+修改之后的文件，先add，然后commit，然后在项目上将其push。
+
+上面都操作之后才算完成了对项目的提交
