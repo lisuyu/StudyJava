@@ -1,0 +1,17 @@
+//String pool
+//常量池的概念，==比较的是的是地址，内存
+//equals()方法比较的是值
+//输出：false true true true
+//String的常量都存在String pool中
+//常量池中存放着类中出现过的所有String常量，字符串常量会产生大量垃圾内存
+//String是字符串常量，每新建一个字符串就会分配一块内存
+//常量池中的内存不会被回收，
+/*      String str = "";
+        for (int i=0;i<100;i++){
+            str+=i;
+        }
+        System.out.println(str);
+* */
+//为解决此问题，有StringBuffer和StringBuilder
+//StringBuffer是线程安全的，StringBuilder是线程不安全的
+//StringBuffer和StringBuilder添加字符是使用append,insert
